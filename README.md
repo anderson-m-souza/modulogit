@@ -40,3 +40,5 @@ git diff nome-do-arquivo --> mostra as modificações do arquivo
 git remote add origin git@github.com:nome-do-usuario/nome-do-reposiorio.git --> vincula um repositório remoto ao repositório local, com o nome origin
 
 git push -u origin nome-da-branch --> envia os commits da branch para o repositório vinculado ao projeto local. A opção -u faz com que não seja necessário especificar o nome do repositório remoto, nem a branch ao fazer um git push ou git pull. Pois os valores passados tornam-se o padrão
+
+git revert --no-edit hash-do-ultimo-commit --> faz um commit desfazendo as alterações do último commit
